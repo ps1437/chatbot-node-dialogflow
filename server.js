@@ -14,7 +14,7 @@ app.use(bodyparser.urlencoded({ extended: false }));
 app.use(express.static(__dirname + '/public'));
 
 const sessionId = uuid.v4();
-const PORT = process.env.port | 8081;
+const PORT = process.env.PORT || 8081;
 
 app.get('*', function (req, res) {
   res.sendFile(__dirname + '/public/index.html');
