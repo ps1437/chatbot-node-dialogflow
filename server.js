@@ -65,4 +65,3 @@ app.listen(PORT, function () {
   console.log(`Server running at port ${PORT}`);
 })
 
-runSample("good morning").then(res => console.log(res));
