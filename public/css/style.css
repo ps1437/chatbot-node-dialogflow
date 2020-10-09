@@ -23,7 +23,10 @@ body {
 
 body {
   background-color: #ff7700;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23ba4938' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23a70101' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23c03640' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23a60923' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23cd5b7e' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%2395103e' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23911659' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%239b0d5b' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23a70b83' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%238e036d' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%239f089f' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%236b0f6b' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-image: url('https://ak.picdn.net/shutterstock/videos/1014715766/thumb/12.jpg');
+ 
+  /* url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23ba4938' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23a70101' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23c03640' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23a60923' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23cd5b7e' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%2395103e' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23911659' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%239b0d5b' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23a70b83' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%238e036d' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%239f089f' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%236b0f6b' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  */
   background-attachment: fixed;
   background-size: cover;
   font-family: 'Open Sans', sans-serif;
@@ -42,7 +45,7 @@ Chat
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 60%;
+  width: 50%;
   height: 95vh;
   max-height: 700px;
   z-index: 2;

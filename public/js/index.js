@@ -5,7 +5,7 @@ var $messages = $('.messages-content');
 $(window).load(function () {
   $messages.mCustomScrollbar();
   setTimeout(function () {
-    serverMessage("hello i am customer support bot type hi and i will show you quick buttions");
+    serverMessage("Hi , &#128567 This is Jaris a Smart Bot !!");
   }, 100);
 
 });
