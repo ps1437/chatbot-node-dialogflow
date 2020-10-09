@@ -6,7 +6,7 @@
   "proxy": "http://localhost:8001",
   "scripts": {
     "start": "node server.js",
-    "start:dev": "nodemon server.js",
+    "dev": "nodemon server.js",
     "build": "webpack",
     "prod": "node dist/api.bundle.js"
   },
