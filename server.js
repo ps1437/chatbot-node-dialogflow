@@ -22,7 +22,6 @@ app.get('*', function (req, res) {
 
 app.post('/api', (req, res) => {
   runSample(req.body.message).then(data => {
-    console.log("----------"+data);
     res.send({ "bot": data });
   })
 });
